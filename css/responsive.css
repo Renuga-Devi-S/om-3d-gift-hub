@@ -78,60 +78,6 @@
 
 @media(max-width:768px){
 
-
-    /* ===========================
-   MOBILE HERO SECTION
-=========================== */
-
-.hero{
-
-    min-height:70vh;      /* Reduce height */
-    padding:90px 20px 40px;
-
-    background-image:
-    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("../assets/images/mobile-bg.png");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-}
-
-.hero-container{
-
-    gap:20px;
-
-}
-
-.hero-left h1{
-
-    font-size:40px;
-    line-height:1.2;
-
-}
-
-.hero-left p{
-
-    font-size:16px;
-    line-height:1.6;
-    margin:15px 0 25px;
-
-}
-
-.hero-buttons{
-
-    gap:15px;
-}
-
-.primary-btn,
-.secondary-btn{
-
-    padding:14px 30px;
-    font-size:16px;
-
-}
-
 .navbar{
     display:flex;
     justify-content:space-between;
