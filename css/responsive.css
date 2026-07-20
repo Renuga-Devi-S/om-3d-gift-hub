@@ -246,6 +246,17 @@ gap:25px;
 /* ////extra/ */
 @media(max-width:768px){
 
+.hero{
+
+background-image:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("../assets/images/bg-mobile.png");
+
+}
+
+}
+@media(max-width:768px){
+
 .menu-toggle{
     display:block;
 }
