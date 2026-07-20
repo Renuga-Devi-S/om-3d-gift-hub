@@ -232,7 +232,7 @@ header{
     }
 
 }
-.hero::before {
+/* .hero::before {
 
     content: "";
 
@@ -246,7 +246,7 @@ header{
 
     z-index: -3;
 
-}
+} */
 
 .hero-overlay {
 
