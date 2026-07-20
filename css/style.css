@@ -232,7 +232,7 @@ header{
     }
 
 }
-/* .hero::before {
+.hero::before {
 
     content: "";
 
@@ -240,13 +240,13 @@ header{
 
     inset: 0;
 
-    background: url("../assets/images/baby.png") center/cover;
+    background: url("../assets/images/bg.png") center/cover;
 
     animation: zoomBg 18s ease-in-out infinite alternate;
 
     z-index: -3;
 
-} */
+}
 
 .hero-overlay {
 
