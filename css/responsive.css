@@ -291,7 +291,7 @@ background-position:center;
       MOBILE PRODUCT BANNER
 ==============================*/
 
-@media (max-width:768px){
+/* @media (max-width:768px){
 
     .product-banner{
 
@@ -320,5 +320,21 @@ background-position:center;
         width: 90%;
 
     }
+
+} */
+
+@media (max-width:991px){
+
+.collection-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media (max-width:768px){
+
+.collection-grid{
+    grid-template-columns:1fr;
+}
 
 }
