@@ -1,0 +1,195 @@
+/*==========================================
+        TABLET (991px)
+==========================================*/
+
+@media (max-width:991px){
+
+    header{
+        padding:15px 5%;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .hero-container{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .hero-left h1{
+        font-size:46px;
+    }
+
+    .hero-left p{
+        margin:auto;
+        margin-bottom:30px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .hero-right img{
+        max-width:420px;
+    }
+
+    .hero{
+        padding:120px 5% 80px;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .hero p{
+        max-width:600px;
+        margin:20px auto;
+    }
+
+    .collection-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .why-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .product-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .process-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/*==========================================
+        MOBILE (768px)
+==========================================*/
+
+@media(max-width:768px){
+
+.navbar{
+
+    height:70px;
+
+}
+
+.menu-toggle{
+
+    display:block;
+
+    z-index:1002;
+
+}
+
+.btn{
+
+    display:none;
+
+}
+
+.nav-links{
+
+    position:fixed;
+
+    top:0;
+
+    right:-100%;
+
+    width:280px;
+
+    height:100vh;
+
+    background:#111;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+    transition:.4s;
+
+    z-index:1001;
+
+}
+
+.nav-links.active{
+
+    right:0;
+
+}
+
+}
+/*==========================================
+        SMALL MOBILE (480px)
+==========================================*/
+
+@media (max-width:480px){
+
+    .logo{
+
+        font-size:20px;
+
+    }
+
+    .hero h1{
+
+        font-size:30px;
+
+    }
+
+    .hero p{
+
+        font-size:15px;
+
+    }
+
+    .tag{
+
+        font-size:13px;
+        padding:6px 15px;
+
+    }
+
+    .primary-btn,
+    .secondary-btn{
+
+        width:100%;
+        max-width:280px;
+
+    }
+
+    .section-title h2{
+
+        font-size:26px;
+
+    }
+
+    .collection-card img{
+
+        height:200px;
+
+    }
+
+    .card-content h3{
+
+        font-size:20px;
+
+    }
+
+    .card-content p{
+
+        font-size:14px;
+
+    }
+
+}
