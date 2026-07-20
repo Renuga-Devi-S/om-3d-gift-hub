@@ -99,7 +99,13 @@
     display:none;
 
 }
+.hero{
 
+background-position:center top;
+
+background-size:cover;
+
+}
 .nav-links{
 
     position:fixed;
