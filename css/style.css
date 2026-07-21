@@ -47,16 +47,6 @@ header {
 
 }
 
-/* .navbar ul {
-
-    display: flex;
-
-    list-style: none;
-
-    gap: 35px;
-
-} */
-
 .navbar a {
 
     color: white;
@@ -73,19 +63,6 @@ header {
 
 }
 
-/* .btn {
-
-    padding: 12px 22px;
-
-    background: #FF7B00;
-
-    border-radius: 30px;
-
-    color: white;
-
-    text-decoration: none;
-
-} */
  /* ================= NAVBAR ================= */
 
 header{

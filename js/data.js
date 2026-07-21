@@ -106,16 +106,12 @@ name:"Temple Idol",
 
 category:"idol",
 
-
-
 image:"assets/products/temple1.png"
 },
 {
 name:"Temple Kunkumam Storage",
 
 category:"idol",
-
-
 
 image:"assets/products/kumkumam.png"
 },
@@ -149,7 +145,7 @@ name:"Krishna Idol",
 
 category:"idol",
 
-image:"assets/products/Krishna.png"
+image:"assets/products/krishna.png"
 },
 {
 name:"Buddha Idol",
