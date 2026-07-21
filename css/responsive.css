@@ -286,7 +286,7 @@ gap:25px;
 .hero{
 
 background-image:
-linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),
 url("../assets/images/mobile-bg.png");
 
 background-size:cover;
@@ -299,38 +299,6 @@ background-position:center;
 /*==============================
       MOBILE PRODUCT BANNER
 ==============================*/
-
-/* @media (max-width:768px){
-
-    .product-banner{
-
-        height: 45vh;
-
-        background-image:
-        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-        url("../assets/images/product-bg-mobile.png");
-
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        animation: none;
-    }
-
-    .product-banner h1{
-
-        font-size: 42px;
-
-    }
-
-    .product-banner p{
-
-        font-size: 16px;
-        width: 90%;
-
-    }
-
-} */
 
 @media (max-width:991px){
 
